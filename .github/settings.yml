@@ -142,3 +142,9 @@ branches:
         apps: []
         users: []
         teams: []
+      # Explicitly enforce the default behaviour of disallowing force pushes to
+      # a protected branch
+      allow_force_pushes: false
+      # Explicitly enforce the default behaviour of disallowing the protected
+      # branch to be deleted
+      allow_deletions: false
