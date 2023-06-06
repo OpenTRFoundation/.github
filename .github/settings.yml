@@ -139,13 +139,13 @@ branches:
         # Required. The list of status checks to require in order to merge into this branch
         contexts: []
       # Required. Enforce all configured restrictions for administrators. Set to true to enforce required status checks for repository administrators. Set to null to disable.
-      enforce_admins: true
+      enforce_admins: false
       # Prevent merge commits from being pushed to matching branches
       required_linear_history: true
       # Required. Restrict who can push to this branch. Team and user restrictions are only available for organization-owned repositories. Set to null to disable.
       restrictions:
         apps: []
-        users: []
+        users: ['aliok']
         teams: []
       # Explicitly enforce the default behaviour of disallowing force pushes to
       # a protected branch
@@ -153,3 +153,8 @@ branches:
       # Explicitly enforce the default behaviour of disallowing the protected
       # branch to be deleted
       allow_deletions: false
+# This doesn't seem working with the app we're using right now
+#      bypass_pull_request_allowances:
+#        apps: [ ]
+#        users: ['aliok']
+#        teams: [ ]
