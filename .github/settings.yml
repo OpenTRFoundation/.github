@@ -59,6 +59,10 @@ repository:
   # vulnerability alerts.
   enable_vulnerability_alerts: true
 
+  squash_merge_commit_title: 'COMMIT_OR_PR_TITLE'
+  squash_merge_commit_message: 'COMMIT_MESSAGES'
+  has_discussions: false
+
 # Labels: define labels for Issues and Pull Requests
 labels:
   - name: bug
