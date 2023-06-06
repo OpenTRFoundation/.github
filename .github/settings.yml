@@ -145,7 +145,7 @@ branches:
       # Required. Restrict who can push to this branch. Team and user restrictions are only available for organization-owned repositories. Set to null to disable.
       restrictions:
         apps: []
-        users: []
+        users: ['aliok']
         teams: []
       # Explicitly enforce the default behaviour of disallowing force pushes to
       # a protected branch
@@ -153,3 +153,7 @@ branches:
       # Explicitly enforce the default behaviour of disallowing the protected
       # branch to be deleted
       allow_deletions: false
+      bypass_pull_request_allowances:
+        apps: [ ]
+        users: ['aliok']
+        teams: [ ]
