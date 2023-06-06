@@ -15,6 +15,7 @@ repository:
   homepage: https://opentr.foundation/
 
   # A comma-separated list of topics to set on the repository
+  # do not have spaces in the items
   # topics: github, probot
 
   # Either `true` to make the repository private, or `false` to make it public.
@@ -64,19 +65,18 @@ repository:
   has_discussions: false
 
 # Labels: define labels for Issues and Pull Requests
+# DO NOT use emojis or special characters in the labels
 labels:
   - name: bug
-    color: CC0000
-    description: An issue with the system 🐛.
+    color: '#CC0000'
 
   - name: feature
     # If including a `#`, make sure to wrap it with quotes!
     color: '#336699'
-    description: New functionality.
 
   - name: help wanted
     # Provide a new name to rename an existing label
-    color: ffff54
+    color: '#ffff54'
 
 # Milestones: define milestones for Issues and Pull Requests
 #milestones:
@@ -114,6 +114,7 @@ collaborators:
 #  - name: docs
 #    permission: push
 
+# if branch protection doesn't work properly, see this: https://github.com/repository-settings/app/issues/625
 branches:
   - name: main
     # https://docs.github.com/en/rest/reference/repos#update-branch-protection
