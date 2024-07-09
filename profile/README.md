@@ -17,16 +17,22 @@ OpenTR'nin çalışmalarına katılmak için [OpenTR'ye katkı rehberimizi](http
 Bu projenin içeriği [CC BY 4.0 lisansı](https://creativecommons.org/licenses/by/4.0/) ile lisanslanmıştır. İçeriği biçimlendirmek ve göstermek için kullanılan temel kaynak kod [Apache 2.0 Lisansı](./LICENSE) ile lisanslanmıştır.
 
 <p align="center">
-  <a href="https://groups.google.com/a/opentr.foundation/g/duyuru" style="margin-right: 10px;">
-    <img src="https://simpleicons.vercel.app/google/000#gh-light-mode-only" alt="Google Groups" width="30" height="30"/>
-    <img src="https://simpleicons.vercel.app/google/fff#gh-dark-mode-only" alt="Google Groups" width="30" height="30"/>
+  <a href="https://groups.google.com/a/opentr.foundation/g/duyuru">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://simpleicons.vercel.app/google/fff#gh-dark-mode-only">
+      <img alt="Google Groups" src="https://simpleicons.vercel.app/google/000#gh-light-mode-only" width="30" height="30">
+    </picture>
   </a>
   <a href="https://x.com/opentr_fdn" style="margin-right: 10px;">
-    <img src="https://simpleicons.vercel.app/x/000#gh-light-mode-only" alt="X.com" width="30" height="30"/>
-    <img src="https://simpleicons.vercel.app/x/fff#gh-dark-mode-only" alt="X.com" width="30" height="30"/>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://simpleicons.vercel.app/x/fff#gh-dark-mode-only">
+      <img alt="X.com" src="https://simpleicons.vercel.app/x/000#gh-light-mode-only" width="30" height="30">
+    </picture>
   </a>
   <a href="https://www.linkedin.com/company/open-tr">
-    <img src="https://simpleicons.vercel.app/linkedin/000#gh-light-mode-only" alt="LinkedIn" width="30" height="30"/>
-    <img src="https://simpleicons.vercel.app/linkedin/fff#gh-dark-mode-only" alt="LinkedIn" width="30" height="30"/>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://simpleicons.vercel.app/linkedin/fff#gh-dark-mode-only">
+      <img alt="LinkedIn" src="https://simpleicons.vercel.app/linkedin/000#gh-light-mode-only" width="30" height="30">
+    </picture>
   </a>
 </p>
